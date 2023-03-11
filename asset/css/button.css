@@ -1,0 +1,137 @@
+.btn-insert{
+    margin-left: 158px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    background-color: var(--button);
+}
+
+.btn-insert a{
+    color: var(--text-color);
+}
+
+.btn-srcnisn{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    background-color: var(--button);
+}
+
+.btn-delete {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: var(--btn-delete);
+    border-radius: 5px;
+}
+
+.btn-delete img{
+    width: 18px;
+    height: 18px;
+}
+
+.btn-update{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    background-color: var(--btn-update);
+    border-radius: 5px;
+}
+
+.btn-update img{
+    width: 15px;
+    height: 15px;
+}
+
+.btn-updt{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 4px;
+    background-color: var(--button);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.popup .btn-ok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-delete);
+    color:  var(--text-color);
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 0;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-close{
+    background-color: var(--btn-popup);
+    color:  var(--text-color);
+    width: 20%;
+    margin-top: 50px;
+    padding: 10px 0;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-bayar{
+    font-size: 16px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: var(--button);
+}
+
+.btn-lunas{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    padding: 2px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--body-color);
+}
+
+.btn-closeLogin{
+    background-color: var(--btn-popup);
+    color:  var(--text-color);
+    width: 20%;
+    margin-top: 50px;
+    padding: 10px 0;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}

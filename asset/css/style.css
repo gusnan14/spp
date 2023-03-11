@@ -1,0 +1,250 @@
+@import url('table-style.css');
+@import url('formsearch-style.css');
+@import url('pagination-style.css');
+@import url('modal.css');
+@import url('../proses/table-bayar.css');
+@import url('button.css');
+@import url('navbar-top.css');
+
+@font-face {
+    font-family: "Catamaran";
+    src: url("Catamaran-VariableFont_wght");
+}
+
+:root{
+
+    --body-color: #f5f5f5;
+    --sidebar-color: #79D1C3;
+    --text-color-sidebar: #3d3f3f !important;
+    --button: #007BFF;
+    --text-color: #fff;
+
+    --btn-delete: #FF1E1E;
+    --btn-update: #FFDE00;
+}
+
+*{
+    font-family: 'Catamaran', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.main-content{
+    /* background-color: var(--body-color); */
+    margin-top: 100px;
+    margin-left: 298px;
+    height: auto;
+    width: 100%;
+}   
+
+.sidebar{
+    background-color: var(--sidebar-color);
+    color: var(--text-color-sidebar)!important;
+    width: 250px;
+    height: 100vh;
+    padding: 24px;
+    position: fixed;
+    top: 0;
+}
+
+/* untuk blur sidebar */
+.z-index-blur{
+    z-index: -2;
+}
+
+.margin-bottom-5{
+    margin-bottom: 50px;
+}
+
+.margin-bottom-1{
+    margin-bottom: 15px;
+}
+
+.logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 12px 10px;
+}
+
+.logout .description-logout{
+    color: var(--text-color-sidebar);
+}
+
+.logout .icon{
+    margin-right: 12px;
+}
+
+.list-item{
+    margin-top: 7px;
+    letter-spacing: 1px;
+}
+
+.sidebar img{
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar .description-header{
+    font-size: 18px;
+    font-weight: bold;
+    /* line-height: 16px; */
+    text-align: center;
+    color: var(--text-color-sidebar);
+}
+.sidebar .header .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar .header .list-item .icon{
+    margin-right: 12px;
+}
+
+.icon-header{
+    width: 35px !important;
+    height: 35px !important; 
+}
+
+.sidebar .main .list-item .description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--text-color-sidebar);
+}
+.sidebar .main .list-item .icon{
+    margin-right: 12px;
+    width: 25px;
+    height: 25px;
+}
+
+.sidebar .main .list-item {
+    border-radius: 8px;
+    width: 245px;
+    box-sizing: border-box;
+}
+
+.sidebar .main .list-item a{
+    display: flex;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 250px;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.list-item a:hover{
+    background-color: #E1F4F3;
+    transition: all .3s ease-in-out;
+}
+
+.aktif{
+    background-color: #E1F4F3;
+    padding: 12px 10px;
+}
+
+
+.cari-nisn{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #49beb6a1;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 7px;
+}
+
+/* .cari-nisn 
+.description{
+    
+    
+    font-size: medium;
+    position: absolute;
+    left: 35%;
+} */
+
+.position-relative{
+    position: relative;
+}
+
+.insrt{
+    border: none;
+    background:none;
+    outline: none;
+    width: 300px;
+    border-bottom: solid 1px black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.select-box{
+    width: 200px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.select-box option{
+    background-color: #79d1c247;
+}
+
+.deskipsi{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: var(--sidebar-color);
+}
+
+.deskipsi .updt-ptgs{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.search-history{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}

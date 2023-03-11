@@ -1,0 +1,60 @@
+:root{
+    --backround-color: #79D1C3;
+    --border:grey;
+    --button:#007BFF;
+    --text-color:#fff;
+}
+
+.form-wraper{
+    margin-top: 20px;
+    margin-left: 250px;
+    max-width: 65%;
+    width: 55%;
+    padding: 25px;
+    background-color: #79D1C3;
+    border-radius: 5px;
+}
+
+.title{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.form-wraper, .input-field-search{
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.button-search{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 1px;
+    color: var(--text-color) ;
+    background-color: var(--button);
+}
+
+.form-search{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-search .search-nisn{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: large;
+}
+/* 
+.fixed{
+    position: fixed;
+    top: 20px;
+    z-index: 2;
+} */

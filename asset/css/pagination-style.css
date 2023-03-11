@@ -1,0 +1,35 @@
+:root{
+    --bckrnd-color:#79D1C3;
+    --txt-color:#000;
+
+    --act-color:#fff;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 35px;
+    width: 25%;
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 17%;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: var(--bckrnd-color);
+    justify-content: space-between;
+}
+.pagination a{
+    padding: 8px;
+}
+.pagination u{
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: var(--txt-color);
+}
+
+.active{
+    background-color: var(--act-color) ;
+}
